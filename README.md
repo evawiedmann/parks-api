@@ -1,24 +1,32 @@
-# README
+# National Parks
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+2020-02-09
 
-Things you may want to cover:
+## Description:
+This application was made as part of a coding project for Eva Wiedmann, a student at _[Epicodus](http://www.epicodus.com)_, a vocational school for technology careers based in Portland, OR. The project is designed to create an API for national parks in the US and corresponding reviews.
 
-* Ruby version
+## Setup/Installation instructions:
+* Click the `Clone or download` button and copy the link.
+* Open your terminal application (assuming **GIT Scripts** and **node.js** (with NPM), and **Ruby 2.5.1** have been installed on your system) and type `git clone (link)`.
+* In terminal using the `cd`... command, navigate to the newly created repository and run `bundle install`.
+* Run `rake db:create`.
+* Run `rake db:migrate`.
+* Run `rake db:seed`.
+* Run `rails s`.
 
-* System dependencies
 
-* Configuration
+## Technologies Used
+> `Ruby`
+> `Ruby gem Puma`
+> `Ruby on Rails`
 
-* Database creation
+## Known Bugs
+* None
 
-* Database initialization
+## References
 
-* How to run the test suite
+## Support and contact details
+Contact [evawiedmann@gmail.com](mailto:evawiedmann@gmail.com)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+This repository is copyright (C) 2020 by Eva Wiedmann.
